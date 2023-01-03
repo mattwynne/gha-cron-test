@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  print time:
+  print-time:
     runs-on: ubuntu-latest
     steps:
       - run: date
